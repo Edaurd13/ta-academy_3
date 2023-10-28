@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "f23d720f-1301-4f80-a61f-1f2fcff6b805",
+		"name": "homework_3(variables)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30734534"
+	},
+	"item": [
+		{
+			"name": "test1",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"118\", \"Google Chrome\";v=\"118\", \"Not=A?Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "website",
+						"value": "4"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Referer",
+						"value": "https://uvp-0000-uhc-desktop.gusadev.com/"
+					},
+					{
+						"key": "store",
+						"value": "17"
+					},
+					{
+						"key": "X-Visitor-Id",
+						"value": "BpoKS5u85J-O9zFN9iL3I"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Android\""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"firstname\":\"Tatev\",\r\n\"lastname\":\"Vardanyan\",\r\n\"email\":\"t.v198@gmail.com\",\r\n\"password\":\"Asd-852456_Asd\",\r\n\"registrationMethod\":\"default\",\r\n\"websiteId\":4,\r\n\"clientId\":\"memberId\"}"
+				},
+				"url": {
+					"raw": "{{url}}/ms/customer/registration",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"ms",
+						"customer",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"118\", \"Google Chrome\";v=\"118\", \"Not=A?Brand\";v=\"99\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?1"
+					},
+					{
+						"key": "User-Agent",
+						"value": "Mozilla/5.0 (Linux; Android 11; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.91 Mobile Safari/537.36"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "website",
+						"value": "4"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "Referer",
+						"value": "https://uvp-0000-uhc-desktop.gusadev.com/"
+					},
+					{
+						"key": "store",
+						"value": "17"
+					},
+					{
+						"key": "X-Visitor-Id",
+						"value": "BpoKS5u85J-O9zFN9iL3I"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Android\""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"firstname\":\"Tatev\",\r\n\"lastname\":\"Vardanyan\",\r\n\"email\":\"t.v.t198@gmail.com\",\r\n\"password\":\"Asd-852456_Asd\",\r\n\"registrationMethod\":\"default\",\r\n\"websiteId\":4,\r\n\"clientId\":\"memberId\"}"
+				},
+				"url": {
+					"raw": "{{url}}/ms/customer/registration",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"ms",
+						"customer",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
