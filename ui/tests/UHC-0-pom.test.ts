@@ -2,7 +2,7 @@ import { expect, test } from '@Test';
 import { CategoryUri } from '@Components/categoryPage/categoryPage';
 
 test.describe('UHC-0-pom', () => {
-    test('The title of test will be here...', async ({ page, homePage, categoryPage }) => {
+    test('The title of test will be here...', async ({ page, homePage, categoryPage  }) => {
         await test.step('Preconditions steps | e.g. Open Home page and do registration', async () => {
             await homePage.open();
 

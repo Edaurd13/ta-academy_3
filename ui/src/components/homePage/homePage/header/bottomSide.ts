@@ -10,5 +10,6 @@ export class BottomSide extends Component {
         categoryNavigation: this.locator.locator('//nav[contains(@class, "mainMenu__menu")]'),
     };
 
+
     public CategoryNavigation = new CategoryNavigation(this.LOCATORS.categoryNavigation, this.page);
 }
